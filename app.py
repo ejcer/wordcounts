@@ -9,7 +9,7 @@ db = SQLAlchemy(app)
 from models import Result
 
 #print(os.environ['APP_SETTINGS'])
-print(os.environ['DATABASE_URL'])
+#print(os.environ['DATABASE_URL'])
 
 
 @app.route('/')
